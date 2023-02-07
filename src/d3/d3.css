@@ -1,0 +1,103 @@
+ body {
+      font-family: verdana;
+      font-size: 12px;
+      font-weight: 300;
+      background-color: #e7ecf7;
+      width: 100vw;
+      height: 80vh;
+      margin-top: 5px;
+              overflow: hidden;
+    }
+
+main {
+      float: left;
+    }
+
+sidebar {
+      float: right;
+      width: 100px;
+    }
+
+sequence {
+      float: top;
+    }
+
+sequence text {
+      font-weight: 600;
+      fill: #fff;
+    }
+    
+sequenceb {
+      float: top;
+    }
+
+sequenceb text {
+      fill: #fff;
+    }
+
+graph {
+      position: absolute;
+      top: 100px;
+    }
+
+explanation {
+      position: absolute;
+      top:45%; bottom:55%;
+      float:center;
+      width: 100vw;
+      text-align: center;
+      color: #666;
+      z-index: -1;
+    }
+
+percentage {
+      font-size: 2em;
+    
+    }
+
+slice {
+            cursor: pointer;
+        }
+
+slice .main-arc {
+            stroke: #fff;
+            stroke-width: 1px;
+        }
+
+slice .hidden-arc {
+            fill: none;
+        }
+
+.slice text {
+        font-size: 15px;
+    font-weight: 600;
+            pointer-events: none;
+            dominant-baseline: middle;
+            text-anchor: middle;
+        }
+
+div.tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+      display: none;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    }
+        
+div.tooltip p {
+    margin: 0;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 16px;
+    } 
+.exp-vis-div{
+  font-size:.8em;
+}

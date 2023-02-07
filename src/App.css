@@ -1,0 +1,142 @@
+
+.App {
+  text-align: center;
+  background-color: #e7ecf7;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  padding-top:5vmin;
+}
+.App-bar{
+ height:20vh;
+ min-width:100vh;
+ background-color:#8ca3a3;
+ margin-bottom:5vh;
+}
+.App-bar-slim{
+ height:10vh;
+ min-width:100vh;
+ background-color:#8ca3a3;
+ margin-bottom:2vh;
+}
+.App-lower-bar{
+ margin-top:5vh;
+ height:5vh;
+ min-width:100vh;
+ background-color:#8ca3a3;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {  
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: #182635;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#agency-d3{
+
+  background-repeat:no-repeat;
+  background-position: center; 
+  background-size: contain;
+}
+.login-button{
+  font-size:120%;
+  background-color:#484f4f;
+  color:#fff;
+  margin-top:10px;
+  border: solid 2px #563f46;
+}
+
+.main-nav{
+   padding-top:5vh;
+   text-align:left;
+   }
+.main-nav a{
+   color:#fff;
+   text-decoration:none;
+   font-weight:bold;
+   font-size:120%;
+   padding-left:2em;
+}
+.grid-single{
+   display:grid;
+   grid-gap: 10px;   
+   grid-auto-rows:minmax(20px, auto);
+}
+.text-inp{
+ font-size:110%;
+ margin-left:auto; 
+}
+.nav2-button{
+  color:black;
+  background-color:#fff;
+  border: 1px solid rgb(214, 214, 214); 
+  font-size:16px;
+  width:100%;
+  height:100%;
+}
+.hidden-arc{
+  display:none;
+}
+
+label{
+  font-size:14px;
+  
+}
+.marker-cluster {
+    background-clip: padding-box;
+    border-radius: 20px;
+}
+.marker-cluster div{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.marker-cluster-small {
+	background-color: rgba(181, 226, 140, 0.6);
+	}
+.marker-cluster-small div {
+	background-color: rgba(110, 204, 57, 0.6);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(241, 211, 87, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(240, 194, 12, 0.6);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(253, 156, 115, 0.6);
+	}
+.marker-cluster-large div {
+	background-color: rgba(241, 128, 23, 0.6);
+	}
+.marker-pin-ys{
+
+    
+}
+
+leaflet-control-layers-overlays label div{
+  text-align:left;
+}
+leaflet-control-layers-expanded{
+  text-align:left;
+}
